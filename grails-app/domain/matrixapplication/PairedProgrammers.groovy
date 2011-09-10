@@ -9,19 +9,19 @@ class PairedProgrammers {
     static constraints = {
     }
 
-    static belongsTo = [matrix: Matrix]
+    static belongsTo = [matrix: Matrix, user: User]
 
-    User programmerOne
-    User programmerTwo
+    User userOne
+    User userTwo
 
-    static PairedProgrammers link(programmerOne, programmerTwo)
+    static PairedProgrammers link(userOne, userTwo)
     {
         def pairingLink = new PairedProgrammers()
-        programmerOne?.addToLinkedPair(pairingLink)
-        programmerTwo?.addToLinkedPair(pairingLink)
+        userOne?.addToLinkedUser(pairingLink)
+        userTwo?.addToLinkedUser(pairingLink)
         pairingLink.save()
-        programmerOne.save(flush: true)
-        programmerTwo.save(flush: true)
+        userOne.save(flush: true)
+        userTwo.save(flush: true)
         return pairingLink
     }
 

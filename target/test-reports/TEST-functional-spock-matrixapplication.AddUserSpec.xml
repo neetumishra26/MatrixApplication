@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="twu-pc" name="matrixapplication.AddUserSpec" tests="1" time="6.54" timestamp="2011-09-10T15:54:50">
+  <properties />
+  <testcase classname="matrixapplication.AddUserSpec" name="should be able to save user when username is given" time="6.524">
+    <error message="Unable to resolve userName as a property to set on NewUserPage&apos;s Navigator context" type="geb.error.UnresolvablePropertyException">geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage&apos;s Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from should be able to save user when username is given--
+]]></system-out>
+  <system-err><![CDATA[--Output from should be able to save user when username is given--
+]]></system-err>
+</testsuite>

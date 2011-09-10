@@ -7,8 +7,9 @@ class Matrix {
     }
 
     static constraints = {
+        allUsers(nullable: false)
+        allPairing(nullable: true)
     }
 
-    static hasMany = [users: User, pairing: PairedProgrammers]
-
+    static hasMany = [allUsers: User, allPairing: PairedProgrammers]
 }

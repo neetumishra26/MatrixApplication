@@ -10,8 +10,9 @@ class User {
         name(blank: false)
     }
 
-    static belongsTo = [matrix: Matrix, linkedPair: PairedProgrammers]
+    static hasMany = [linkedUser: PairedProgrammers]
+
+    static belongsTo = [matrix: Matrix]
 
     String name
-    Matrix matrix
 }

@@ -24,11 +24,11 @@
 
 <div id="content-wrapper">
     <div id="sidebar">
-        <g:link controller="matrix" action="show" name="showMatrix">Show Matrix</g:link>
+        <g:link controller="user" action="save" name="createNewUser">Create User</g:link>
         <br/>
         <g:link controller="user" action="show" name="showUser">Show User</g:link>
         <br/>
-        <g:link controller="user" action="save" name="createNewUser">Add User</g:link>
+        <g:link controller="matrix" action="show" name="showMatrix">Show Matrix</g:link>
         <br/>
         <g:link controller="matrix" action="save" name="createNewPairing">Add Pairing</g:link>
         <br/>
