@@ -12887,3 +12887,399 @@ geb.error.UnresolvablePropertyException: Unable to resolve userName as a propert
 	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
 	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
 	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 22:26:33,472 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 22:26:33,481 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 22:38:34,417 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 22:38:34,437 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 22:41:10,538 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 22:41:10,550 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 22:54:27,545 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 22:54:27,560 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 23:02:16,649 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 23:02:16,668 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 23:04:02,171 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 23:04:02,182 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 23:29:50,765 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 23:29:50,775 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve userName as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 23:35:35,225 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-10 23:35:35,243 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:15:11,555 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:15:11,600 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:22:47,763 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as content for NewUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:22:47,794 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as content for NewUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:26:17,028 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as content for NewUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:26:17,038 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as content for NewUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:35:52,308 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:35:52,331 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:46:58,385 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:46:58,396 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:50:30,900 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:50:30,940 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:52:17,349 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:52:17,359 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:55:46,381 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 00:55:46,389 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 08:24:41,475 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 08:24:41,482 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 08:27:17,259 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 08:27:17,268 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 08:28:35,883 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 08:28:35,891 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 09:17:59,757 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 09:17:59,766 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)

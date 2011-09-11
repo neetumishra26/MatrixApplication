@@ -4,9 +4,9 @@ import geb.Page
 
 class NewUserPage extends Page {
     static at = { $("title").text() == "Create User" }
-    static url = "user/save"
+    static url = "user/create"
     static content = {
-        userName { $("input", id: "uname") }
-        save { $("button", id: "add-user") }
+        username { $("input", id: "user-name") }
+        save { $("button", id: "user-save") }
     }
 }

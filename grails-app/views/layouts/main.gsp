@@ -4,6 +4,7 @@
     <title><g:layoutTitle default="Grails"/></title>
     <link rel="shortcut icon" href="${resource(dir: 'images', file: 'pairing.jpg')}" type="image/x-icon"/>
     <link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}"/>
+    <g:javascript library="jquery" />
     <g:layoutHead/>
 </head>
 
@@ -15,22 +16,22 @@
 %{--<div id="status"><span class="flash-message">${flash.message}</span></div>--}%
 %{--</g:if>--}%
 <div id="header">
-    <div id="logo"><img src="images/pairing.jpg"/></div>
+    <div id="logo"><img src="pairing.jpg"/></div>
     <div id="blank"></div>
     <div id="Banner">
-        <img src="images/logo.jpg" />
+        <img src="logo.jpg" />
     </div>
 </div>
 
 <div id="content-wrapper">
     <div id="sidebar">
-        <g:link controller="user" action="save" name="createNewUser">Create User</g:link>
+        <g:link controller="user" action="create" name="createNewUser">Create User</g:link>
         <br/>
-        <g:link controller="user" action="show" name="showUser">Show User</g:link>
+        <g:link controller="user" action="index" name="showUser">Show User</g:link>
         <br/>
-        <g:link controller="matrix" action="show" name="showMatrix">Show Matrix</g:link>
+        <g:link controller="matrix" action="index" name="showMatrix">Show Matrix</g:link>
         <br/>
-        <g:link controller="matrix" action="save" name="createNewPairing">Add Pairing</g:link>
+        <g:link controller="matrix" action="create" name="createNewPairing">Add Pairing</g:link>
         <br/>
     </div>
 

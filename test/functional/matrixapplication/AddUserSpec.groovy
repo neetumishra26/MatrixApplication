@@ -10,7 +10,7 @@ class AddUserSpec extends MatrixApplicationGebSpec{
         to NewUserPage
 
         when:
-        userName = "Neetu"
+        username = "Neetu"
         save.click()
 
         then:

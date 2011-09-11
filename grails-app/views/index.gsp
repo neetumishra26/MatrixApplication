@@ -6,8 +6,6 @@
 </head>
 
 <body>
-    <br>
-    <br>
-    <h3 style="margin: 15px;"> Welcome to Pair Programming Matrix!</h3>
+    <h3> Welcome to Pair Programming Matrix!</h3>
 </body>
 </html>

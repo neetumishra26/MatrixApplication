@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/functional-test-1.2.7/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/jquery-1.6.1.1/web-app" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/functional-test-1.2.7">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/functional-test-1.2.7/src/groovy" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/functional-test-1.2.7/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/functional-test-1.2.7/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/functional-test-1.2.7/web-app/plugins" />
+    </content>
     <content url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/geb-0.6.0">
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/geb-0.6.0/target/classes" />
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/geb-0.6.0/target/test-classes" />
@@ -11,6 +28,21 @@
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/hibernate-1.3.7/target/classes" />
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/hibernate-1.3.7/target/test-classes" />
       <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/hibernate-1.3.7/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/jquery-1.6.1.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/jquery-1.6.1.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/jquery-1.6.1.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/jquery-1.6.1.1/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/jquery-1.6.1.1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/jquery-1.6.1.1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/jquery-1.6.1.1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/maven-publisher-0.8.1">
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/maven-publisher-0.8.1/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/maven-publisher-0.8.1/src/groovy" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/maven-publisher-0.8.1/target/classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/maven-publisher-0.8.1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/maven-publisher-0.8.1/web-app/plugins" />
     </content>
     <content url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/spock-0.5-groovy-1.7">
       <sourceFolder url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/spock-0.5-groovy-1.7/src/java" isTestSource="false" />
@@ -32,15 +64,55 @@
       <library name="Grails User Library (MatrixApplication-grailsPlugins)">
         <CLASSES>
           <root url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/tomcat-1.3.7/lib" />
+          <root url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/functional-test-1.2.7/lib" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.2.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/junit/junit-dep/jars/junit-dep-4.8.2.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.spockframework/spock-core/jars/spock-core-0.5-groovy-1.7.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.5-groovy-1.7.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.geb/geb-core/jars/geb-core-0.6.0.jar!/" />
           <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.geb/geb-spock/jars/geb-spock-0.6.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/com.google.guava/guava/jars/guava-r09.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.seleniumhq.selenium/selenium-api/jars/selenium-api-2.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.json/json/jars/json-20080701.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.seleniumhq.selenium/selenium-remote-driver/jars/selenium-remote-driver-2.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.seleniumhq.selenium/selenium-firefox-driver/jars/selenium-firefox-driver-2.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.tmatesoft.svnkit/svnkit/jars/svnkit-1.3.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/xml-resolver/xml-resolver/jars/xml-resolver-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.9.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.ezmorph/ezmorph/jars/ezmorph-1.0.6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.json-lib/json-lib/jars/json-lib-2.3-jdk15.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.groovy.modules.http-builder/http-builder/jars/http-builder-0.5.0.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/nekohtml/nekohtml/jars/nekohtml-1.9.6.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/nekohtml/xercesMinimal/jars/xercesMinimal-1.9.6.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven.wagon/wagon-http-shared/jars/wagon-http-shared-1.0-beta-6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven.wagon/wagon-http-lightweight/jars/wagon-http-lightweight-1.0-beta-6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven.wagon/wagon-file/jars/wagon-file-1.0-beta-6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-error-diagnostics/jars/maven-error-diagnostics-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-plugin-registry/jars/maven-plugin-registry-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-profile/jars/maven-profile-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-settings/jars/maven-settings-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-project/jars/maven-project-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-model/jars/maven-model-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/backport-util-concurrent/backport-util-concurrent/jars/backport-util-concurrent-3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven.wagon/wagon-provider-api/jars/wagon-provider-api-1.0-beta-6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-repository-metadata/jars/maven-repository-metadata-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-artifact-manager/jars/maven-artifact-manager-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-artifact/jars/maven-artifact-2.2.1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.plexus/plexus-interpolation/jars/plexus-interpolation-1.11.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.plexus/plexus-utils/jars/plexus-utils-1.5.15.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.plexus/plexus-container-default/jars/plexus-container-default-1.0-alpha-9-stable-1.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/classworlds/classworlds/jars/classworlds-1.1-alpha-2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/ant/ant/jars/ant-1.6.5.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.maven/maven-ant-tasks/jars/maven-ant-tasks-2.1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/functional-test-1.2.7/lib" recursive="false" />
         <jarDirectory url="file://$USER_HOME$/.grails/1.3.7/projects/MatrixApplication/plugins/tomcat-1.3.7/lib" recursive="false" />
       </library>
     </orderEntry>

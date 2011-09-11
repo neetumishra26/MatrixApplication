@@ -13,11 +13,13 @@ grails.project.dependency.resolution = {
         grailsPlugins()
         grailsHome()
         grailsCentral()
-//        mavenLocal()
-//        mavenCentral()
-//        mavenRepo "http://snapshots.repository.codehaus.org"
-//        mavenRepo "http://repository.codehaus.org"
-//        mavenRepo "http://download.java.net/maven/2/"
+        mavenCentral()
+
+        mavenLocal()
+        mavenRepo "http://snapshots.repository.codehaus.org"
+        mavenRepo "http://repository.codehaus.org"
+        mavenRepo "http://download.java.net/maven/2/"
+
 //        mavenRepo "http://repository.jboss.com/maven2/"
     }
     dependencies {
@@ -26,8 +28,13 @@ grails.project.dependency.resolution = {
 //        test 'org.seleniumhq.selenium:selenium-chrome-driver:latest.release'
 //        test 'org.seleniumhq.selenium:selenium-ie-driver:latest.release'
         test 'org.codehaus.geb:geb-spock:0.6.0'
+        test 'org.codehaus.geb:geb-core:0.6.0'
 //        test('org.seleniumhq.selenium:selenium-htmlunit-driver:latest.release') {
 //        exclude 'xml-apis'
 //        }
     }
+}
+grails.project.dependency.distribution = {
+     localRepository = "/home/twu/MatrixApplication"
+     remoteRepository(id:"MatrixApplication", url:"https://github.com/neetumishra26/MatrixApplication")
 }

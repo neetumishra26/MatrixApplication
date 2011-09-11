@@ -2,25 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8705a499-997a-407d-9ead-1a62aea92343" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/functionaltest/MatrixApplicationGebSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/Matrix" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/matrixapplication/PairedProgrammer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerTests.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/matrixapplication/UserControllerTests.groovy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/MatrixApplicationGebSpec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/NewUserPage$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/NewUserPage$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/NewUserPage$__clinit__closure2_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/NewUserPage$__clinit__closure2_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/NewUserPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/ShowUserPage$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/ShowUserPage$__clinit__closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/ShowUserPage$__clinit__closure2_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/ShowUserPage$__clinit__closure2_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/ShowUserPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/UserRow$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/UserRow$__clinit__closure1_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/UserRow$__clinit__closure1_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/functionaltest/pages/UserRow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/matrixapplication/AddUserSpec.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/functional/matrixapplication/ShowMatrixSpec.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/web-app/images/favicon.ico" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatrixApplication-grailsPlugins.iml" afterPath="$PROJECT_DIR$/MatrixApplication-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatrixApplication.iml" afterPath="$PROJECT_DIR$/MatrixApplication.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatrixApplication.iws" afterPath="$PROJECT_DIR$/MatrixApplication.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/matrixapplication/Matrix.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/matrixapplication/Matrix.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/matrixapplication/PairedProgrammers.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/matrixapplication/PairedProgrammers.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/matrixapplication/User.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/matrixapplication/User.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/matrixapplication/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/matrixapplication/UserController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stacktrace.log" afterPath="$PROJECT_DIR$/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/TEST-functional-spock-matrixapplication.AddUserSpec.xml" afterPath="$PROJECT_DIR$/target/test-reports/TEST-functional-spock-matrixapplication.AddUserSpec.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" afterPath="$PROJECT_DIR$/target/test-reports/TESTS-TestSuites.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/all-tests.html" afterPath="$PROJECT_DIR$/target/test-reports/html/all-tests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/alltests-errors.html" afterPath="$PROJECT_DIR$/target/test-reports/html/alltests-errors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/matrixapplication/0_AddUserSpec-errors.html" afterPath="$PROJECT_DIR$/target/test-reports/html/matrixapplication/0_AddUserSpec-errors.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/matrixapplication/0_AddUserSpec.html" afterPath="$PROJECT_DIR$/target/test-reports/html/matrixapplication/0_AddUserSpec.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/matrixapplication/package-summary.html" afterPath="$PROJECT_DIR$/target/test-reports/html/matrixapplication/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/html/overview-summary.html" afterPath="$PROJECT_DIR$/target/test-reports/html/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-matrixapplication.AddUserSpec.txt" afterPath="$PROJECT_DIR$/target/test-reports/plain/TEST-functional-spock-matrixapplication.AddUserSpec.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/functionaltest/pages/NewUserPage.groovy" afterPath="$PROJECT_DIR$/test/functional/functionaltest/pages/NewUserPage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy" afterPath="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy" afterPath="$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/main.css" afterPath="$PROJECT_DIR$/web-app/css/main.css" />
     </list>
     <ignored path="MatrixApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,19 +104,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ShowMatrixSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/ShowMatrixSpec.groovy">
+      <file leaf-file-name="AddUserSpec.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+            <state line="17" column="16" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddUserSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy">
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="4" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
+            <state line="37" column="62" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.85902256">
               <folding />
             </state>
           </provider>
@@ -101,37 +125,52 @@
       <file leaf-file-name="ShowUserPage.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+            <state line="11" column="48" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewUserPage.groovy" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NewUserPage.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/NewUserPage.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="20" selection-start="285" selection-end="285" vertical-scroll-proportion="0.32315978">
+            <state line="9" column="36" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PairedProgrammers.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/matrixapplication/PairedProgrammers.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="50" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.75">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.25">
+            <state line="13" column="21" selection-start="302" selection-end="302" vertical-scroll-proportion="-4.1489363">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="-3.5106382">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Config.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="24" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/matrixapplication/UserController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="17" selection-start="86" selection-end="86" vertical-scroll-proportion="-3.2608695">
               <folding />
             </state>
           </provider>
@@ -140,7 +179,16 @@
       <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="26" selection-start="1353" selection-end="1353" vertical-scroll-proportion="-19.083334">
+            <state line="10" column="67" selection-start="341" selection-end="341" vertical-scroll-proportion="-6.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="295" column="25" selection-start="5338" selection-end="5338" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,22 +208,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerTests.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixControllerSpec.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/matrixapplication/PairedProgrammers.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/domain/matrixapplication/User.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/matrix/show.gsp" />
-        <option value="$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerSpec.groovy" />
-        <option value="$PROJECT_DIR$/test/unit/matrixapplication/UserControllerTests.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy" />
         <option value="$PROJECT_DIR$/test/functional/matrixapplication/ShowMatrixSpec.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
         <option value="$PROJECT_DIR$/test/functional/functionaltest/MatrixApplicationGebSpec.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-        <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/NewUserPage.groovy" />
         <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/UserRow.groovy" />
-        <option value="$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
+        <option value="$PROJECT_DIR$/web-app/css/main.css" />
         <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/NewUserPage.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/matrixapplication/UserController.groovy" />
+        <option value="$PROJECT_DIR$/src/javascript/CreateNewUserOnLoad.js" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
       </list>
     </option>
   </component>
@@ -228,6 +276,41 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="matrixapplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,6 +340,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,6 +469,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functional" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="functionaltest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShowUserPage.groovy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -422,11 +553,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascript" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatrixApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grails-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,52 +693,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MatrixApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MatrixApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MatrixApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MatrixApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MatrixApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="matrixapplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -574,6 +724,15 @@
       <method>
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -597,15 +756,6 @@
       <method>
         <option name="BuildArtifacts" enabled="false" />
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method>
-        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
     <configuration default="false" name="Grails:MatrixApplication" type="GrailsRunConfigurationType" factoryName="Grails">
@@ -642,7 +792,7 @@
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1296" height="760" extended-state="0" />
+    <frame x="-8" y="24" width="1296" height="760" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -651,7 +801,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29163346" sideWeight="0.6705298" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32988048" sideWeight="0.6705298" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
@@ -709,113 +859,96 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/ShowMatrixSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/matrixapplication/PairedProgrammers.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="50" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.75" />
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="136" selection-end="136" vertical-scroll-proportion="-5.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+        <state line="7" column="78" selection-start="107" selection-end="107" vertical-scroll-proportion="0.19662921" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/logo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/NewUserPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="36" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="295" column="25" selection-start="5338" selection-end="5338" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="302" selection-end="302" vertical-scroll-proportion="-4.1489363">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/matrixapplication/UserController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+        <state line="5" column="17" selection-start="86" selection-end="86" vertical-scroll-proportion="-3.2608695">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/matrixapplication/User.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.codehaus.geb/geb-spock/jars/geb-spock-0.6.0.jar!/geb/spock/GebSpec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0877193">
+        <state line="33" column="24" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+    <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/ShowMatrixSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/MatrixApplicationGebSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="67" selection-start="379" selection-end="379" vertical-scroll-proportion="0.35008976">
+        <state line="17" column="16" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="26" selection-start="1353" selection-end="1353" vertical-scroll-proportion="-19.083334">
+        <state line="10" column="67" selection-start="341" selection-end="341" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerSpec.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="76" selection-end="76" vertical-scroll-proportion="-2.6086957">
+        <state line="11" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="-3.5106382">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/index.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/matrixapplication/PairedProgrammers.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="50" selection-start="192" selection-end="192" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="27" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/NewUserPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="20" selection-start="285" selection-end="285" vertical-scroll-proportion="0.32315978">
+        <state line="37" column="62" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.85902256">
           <folding />
         </state>
       </provider>
@@ -827,8 +960,8 @@
         <entry key="MatrixApplication">
           <value>
             <GrailsSettings>
-              <option name="buildConfigCrc" value="-610101945" />
-              <option name="pluginDependenciesCrc" value="797216389" />
+              <option name="buildConfigCrc" value="-484844653" />
+              <option name="pluginDependenciesCrc" value="1074448663" />
               <option name="properties">
                 <map>
                   <entry key="grails.project.class.dir" value="target/classes" />
