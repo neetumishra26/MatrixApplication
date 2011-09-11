@@ -4,7 +4,6 @@ class PersonController {
 
     def index = { }
     def create = {
-
     }
 
     def show = {
@@ -12,8 +11,7 @@ class PersonController {
     }
 
     def save = {
-        def newPerson = new Person(id:params.id, name: params.name)
-        print(params)
+        def newPerson = new Person(name: params.name)
         if(newPerson.save(flush:true)){
             redirect(action:'show')
         }

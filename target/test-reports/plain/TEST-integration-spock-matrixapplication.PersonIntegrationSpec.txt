@@ -1,0 +1,13 @@
+Testsuite: matrixapplication.PersonIntegrationSpec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.901 sec
+------------- Standard Output ---------------
+--Output from should be able to save a person to the database--
+--Output from should not be able to save a case with a duplicate id--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from should be able to save a person to the database--
+--Output from should not be able to save a case with a duplicate id--
+------------- ---------------- ---------------
+
+Testcase: should be able to save a person to the database took 0.866 sec
+Testcase: should not be able to save a case with a duplicate id took 0.018 sec

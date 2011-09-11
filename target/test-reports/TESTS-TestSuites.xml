@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="1" hostname="twu-pc" id="0" name="UserControllerSpec" package="matrixapplication" tests="1" time="1.702" timestamp="2011-09-11T08:23:43">
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="PersonIntegrationSpec" package="matrixapplication" tests="2" time="0.901" timestamp="2011-09-11T19:15:43">
       <properties />
 
-      <testcase classname="matrixapplication.UserControllerSpec" name="should save user" time="1.672">
-          <failure message="Condition not satisfied:  User.count() == 1      |       |      0       false " type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+      <testcase classname="matrixapplication.PersonIntegrationSpec" name="should be able to save a person to the database" time="0.866" />
 
-User.count() == 1
-     |       |
-     0       false
+      <testcase classname="matrixapplication.PersonIntegrationSpec" name="should not be able to save a case with a duplicate id" time="0.018" />
 
-	at matrixapplication.UserControllerSpec.should save user(UserControllerSpec.groovy:17)
-</failure>
+      <system-out><![CDATA[--Output from should be able to save a person to the database--
+--Output from should not be able to save a case with a duplicate id--
+]]></system-out>
 
-      </testcase>
-
-      <system-out><![CDATA[--Output from should save user--
-[id:1, name:Neetu]]]></system-out>
-
-      <system-err><![CDATA[--Output from should save user--
+      <system-err><![CDATA[--Output from should be able to save a person to the database--
+--Output from should not be able to save a case with a duplicate id--
 ]]></system-err>
 
   </testsuite>

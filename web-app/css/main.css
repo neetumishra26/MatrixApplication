@@ -293,14 +293,12 @@ body {
         width: 100%;
         border-bottom: 1px solid;
         padding: 5px;
-        background: url("/images/logo.jpg");
     }
 
     #logo {
         height: 100px;
         float: left;
         clear: right;
-        background-image: url("/images/pairing.jpg");
     }
 
     #blank{

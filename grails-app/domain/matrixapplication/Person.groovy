@@ -1,20 +1,11 @@
 package matrixapplication
 
 class Person {
-
     static mapping = {
-        table 'personTable'
+        table 'person_table'
     }
-
     static constraints = {
-        id(unique: true)
-        name(blank: false)
+        name(blank: false, unique: true)
     }
-
-//    static hasMany = [linkedUser: PairedProgrammers]
-
-//    static belongsTo = [matrix: Matrix]
-
-    String id
     String name
 }

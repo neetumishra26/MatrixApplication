@@ -6,8 +6,7 @@
   </head>
   <body>
      <g:form controller="person" action="save" method="POST">
-         <label>User Id</label>
-         <g:textField name="id" id="user-id" />
+         <h4>Enter User Details:</h4>
          <br>
          <label>User Name</label>
          <g:textField name="name" id="user-name" />

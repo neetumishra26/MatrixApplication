@@ -9,17 +9,11 @@
 </head>
 
 <body>
-%{--<g:if test="${flash.error}">--}%
-%{--<div id="errorMessage"><span class="flash-message">${flash.error}</span></div>--}%
-%{--</g:if>--}%
-%{--<g:if test="${flash.message}">--}%
-%{--<div id="status"><span class="flash-message">${flash.message}</span></div>--}%
-%{--</g:if>--}%
 <div id="header">
-    <div id="logo"><img src="pairing.jpg"/></div>
+    <div id="logo"><img src="/MatrixApplication/images/pairing.jpg"/></div>
     <div id="blank"></div>
     <div id="Banner">
-        <img src="logo.jpg" />
+        <img src="/MatrixApplication/images/logo.jpg" />
     </div>
 </div>
 
@@ -29,7 +23,7 @@
         <br/>
         <g:link controller="person" action="show" name="showUser">Show User</g:link>
         <br/>
-        <g:link controller="matrix" action="index" name="showMatrix">Show Matrix</g:link>
+        <g:link controller="matrix" action="show" name="showMatrix">Show Matrix</g:link>
         <br/>
         <g:link controller="matrix" action="create" name="createNewPairing">Add Pairing</g:link>
         <br/>
