@@ -12039,7 +12039,7 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 Caused by: org.hibernate.MappingException: Could not determine type for: [Lmatrixapplication.PairedProgrammers;, at table: matrix_of_pairing, for columns: [org.hibernate.mapping.Column(pairing)]
 	... 22 more
 2011-09-10 18:13:44,305 [main] ERROR StackTrace  - Sanitizing stacktrace:
-org.codehaus.groovy.grails.exceptions.GrailsDomainException: Property [linkedUser] in class [class matrixapplication.User] is a bidirectional one-to-many with two possible properties on the inverse side. Either name one of the properties on other side of the relationship [user] or use the 'mappedBy' static to define the property that the relationship is mapped with. Example: static mappedBy = [linkedUser:'myprop']
+org.codehaus.groovy.grails.exceptions.GrailsDomainException: Property [linkedUser] in class [class matrixapplication.Person] is a bidirectional one-to-many with two possible properties on the inverse side. Either name one of the properties on other side of the relationship [user] or use the 'mappedBy' static to define the property that the relationship is mapped with. Example: static mappedBy = [linkedUser:'myprop']
 	at org.codehaus.groovy.grails.commons.DefaultGrailsDomainClass.establishRelationshipForCollection(DefaultGrailsDomainClass.java:339)
 	at org.codehaus.groovy.grails.commons.DefaultGrailsDomainClass.establishRelationships(DefaultGrailsDomainClass.java:244)
 	at org.codehaus.groovy.grails.commons.DefaultGrailsDomainClass.<init>(DefaultGrailsDomainClass.java:108)
@@ -13283,3 +13283,229 @@ geb.error.UnresolvablePropertyException: Unable to resolve username as a propert
 	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
 	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
 	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 10:32:50,627 [main] ERROR StackTrace  - Sanitizing stacktrace:
+java.lang.NoSuchMethodError: org.apache.http.conn.scheme.Scheme.<init>(Ljava/lang/String;ILorg/apache/http/conn/scheme/SchemeSocketFactory;)V
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.createHttpClient(HttpWebConnection.java:504)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.getHttpClient(HttpWebConnection.java:470)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.setUseInsecureSSL(HttpWebConnection.java:659)
+	at com.gargoylesoftware.htmlunit.WebClient.setUseInsecureSSL(WebClient.java:1085)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.createWebClient(HtmlUnitDriver.java:241)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:106)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:149)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:145)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:36)
+	at geb.Configuration.createDriver(Configuration.groovy:210)
+	at geb.Configuration.getDriver(Configuration.groovy:199)
+	at geb.Browser.getDriver(Browser.groovy:100)
+	at geb.Browser.go(Browser.groovy:300)
+	at geb.Page.to(Page.groovy:157)
+	at geb.Browser.to(Browser.groovy:333)
+	at geb.Browser.to(Browser.groovy:323)
+	at geb.Browser.to(Browser.groovy:313)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:10)
+2011-09-11 10:32:50,636 [main] ERROR StackTrace  - Sanitizing stacktrace:
+java.lang.NoSuchMethodError: org.apache.http.conn.scheme.Scheme.<init>(Ljava/lang/String;ILorg/apache/http/conn/scheme/SchemeSocketFactory;)V
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.createHttpClient(HttpWebConnection.java:504)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.getHttpClient(HttpWebConnection.java:470)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.setUseInsecureSSL(HttpWebConnection.java:659)
+	at com.gargoylesoftware.htmlunit.WebClient.setUseInsecureSSL(WebClient.java:1085)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.createWebClient(HtmlUnitDriver.java:241)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:106)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:149)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:145)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:36)
+	at geb.Configuration.createDriver(Configuration.groovy:210)
+	at geb.Configuration.getDriver(Configuration.groovy:199)
+	at geb.Browser.getDriver(Browser.groovy:100)
+	at geb.Browser.go(Browser.groovy:300)
+	at geb.Page.to(Page.groovy:157)
+	at geb.Browser.to(Browser.groovy:333)
+	at geb.Browser.to(Browser.groovy:323)
+	at geb.Browser.to(Browser.groovy:313)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:10)
+2011-09-11 10:32:50,643 [main] ERROR StackTrace  - Sanitizing stacktrace:
+java.lang.NoSuchMethodError: org.apache.http.conn.scheme.Scheme.<init>(Ljava/lang/String;ILorg/apache/http/conn/scheme/SchemeSocketFactory;)V
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.createHttpClient(HttpWebConnection.java:504)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.getHttpClient(HttpWebConnection.java:470)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.setUseInsecureSSL(HttpWebConnection.java:659)
+	at com.gargoylesoftware.htmlunit.WebClient.setUseInsecureSSL(WebClient.java:1085)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.createWebClient(HtmlUnitDriver.java:241)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:106)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:149)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:145)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:36)
+	at geb.Configuration.createDriver(Configuration.groovy:210)
+	at geb.Configuration.getDriver(Configuration.groovy:199)
+	at geb.Browser.getDriver(Browser.groovy:100)
+	at geb.Browser.clearCookies(Browser.groovy:340)
+	at geb.Browser.clearCookiesQuietly(Browser.groovy:348)
+	at geb.spock.GebSpec.resetBrowser(GebSpec.groovy:45)
+	at geb.spock.GebSpec.cleanup(GebSpec.groovy:67)
+2011-09-11 10:32:50,644 [main] ERROR StackTrace  - Sanitizing stacktrace:
+java.lang.NoSuchMethodError: org.apache.http.conn.scheme.Scheme.<init>(Ljava/lang/String;ILorg/apache/http/conn/scheme/SchemeSocketFactory;)V
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.createHttpClient(HttpWebConnection.java:504)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.getHttpClient(HttpWebConnection.java:470)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.setUseInsecureSSL(HttpWebConnection.java:659)
+	at com.gargoylesoftware.htmlunit.WebClient.setUseInsecureSSL(WebClient.java:1085)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.createWebClient(HtmlUnitDriver.java:241)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:106)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:149)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.<init>(HtmlUnitDriver.java:145)
+	at geb.driver.NameBasedDriverFactory.getDriver(NameBasedDriverFactory.groovy:42)
+	at geb.driver.CachingDriverFactory.getDriver(CachingDriverFactory.groovy:36)
+	at geb.Configuration.createDriver(Configuration.groovy:210)
+	at geb.Configuration.getDriver(Configuration.groovy:199)
+	at geb.Browser.getDriver(Browser.groovy:100)
+	at geb.Browser.clearCookies(Browser.groovy:340)
+	at geb.Browser.clearCookiesQuietly(Browser.groovy:348)
+	at geb.spock.GebSpec.resetBrowser(GebSpec.groovy:45)
+	at geb.spock.GebSpec.cleanup(GebSpec.groovy:67)
+2011-09-11 10:38:26,614 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 10:38:26,624 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:15:24,925 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:15:24,942 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:44:59,178 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:44:59,187 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:53:47,401 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:53:47,419 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:56:12,191 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:56:12,202 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.setProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:181)
+	at geb.Browser.setProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
+	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:57:44,608 [main] ERROR StackTrace  - Sanitizing stacktrace:
+groovy.lang.MissingMethodException: No signature of method: geb.navigator.NonEmptyNavigator.val() is applicable for argument types: (java.lang.String) values: [Neetu]
+Possible solutions: has(java.lang.String), tag(), tail(), value(), tag(), tail()
+	at geb.navigator.NonEmptyNavigator.methodMissing(NonEmptyNavigator.groovy:350)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:121)
+	at geb.content.SimplePageContent.methodMissing(SimplePageContent.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:57:44,727 [main] ERROR StackTrace  - Sanitizing stacktrace:
+groovy.lang.MissingMethodException: No signature of method: geb.navigator.NonEmptyNavigator.val() is applicable for argument types: (java.lang.String) values: [Neetu]
+Possible solutions: has(java.lang.String), tag(), tail(), value(), tag(), tail()
+	at geb.navigator.NonEmptyNavigator.methodMissing(NonEmptyNavigator.groovy:350)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:121)
+	at geb.content.SimplePageContent.methodMissing(SimplePageContent.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:59:11,180 [main] ERROR StackTrace  - Sanitizing stacktrace:
+groovy.lang.MissingMethodException: No signature of method: geb.navigator.NonEmptyNavigator.val() is applicable for argument types: (java.lang.String) values: [Neetu]
+Possible solutions: has(java.lang.String), tag(), tail(), value(), tag(), tail()
+	at geb.navigator.NonEmptyNavigator.methodMissing(NonEmptyNavigator.groovy:350)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:121)
+	at geb.content.SimplePageContent.methodMissing(SimplePageContent.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 11:59:11,263 [main] ERROR StackTrace  - Sanitizing stacktrace:
+groovy.lang.MissingMethodException: No signature of method: geb.navigator.NonEmptyNavigator.val() is applicable for argument types: (java.lang.String) values: [Neetu]
+Possible solutions: has(java.lang.String), tag(), tail(), value(), tag(), tail()
+	at geb.navigator.NonEmptyNavigator.methodMissing(NonEmptyNavigator.groovy:350)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:121)
+	at geb.content.SimplePageContent.methodMissing(SimplePageContent.groovy)
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+2011-09-11 12:00:26,791 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+at(ShowUserPage)
+|
+false
+
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:17)
+2011-09-11 12:00:26,801 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+at(ShowUserPage)
+|
+false
+
+	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:17)

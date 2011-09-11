@@ -10,11 +10,11 @@ class AddUserSpec extends MatrixApplicationGebSpec{
         to NewUserPage
 
         when:
-        username = "Neetu"
+        username.value("Neetu")
         save.click()
 
         then:
         assert at(ShowUserPage)
-        allUser.size() == 1
+        allUser == 1
     }
 }

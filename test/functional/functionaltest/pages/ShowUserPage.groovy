@@ -7,7 +7,9 @@ class ShowUserPage extends Page{
     static at = { $("title").text() == "Users" }
     static url = "user/index"
     static content = {
-        allUser { $("#user-table tr") }.collect {module UserRow, it}
+//        allUser { $("#user-table tr") }.collect {module UserRow, it}
+      allUser {$("#user-table tbody tr").size()}
+
     }
 }
 

@@ -17,18 +17,16 @@
 <tr valign="top">
 <th>Class</th><th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
 </tr>
-<tr valign="top" class="Error">
-<td><a href="matrixapplication/0_AddUserSpec.html">AddUserSpec</a></td><td><a name="should be able to save user when username is given"></a><a href="matrixapplication/0_AddUserSpec.html#should be able to save user when username is given">should be able to save user when username is given</a></td><td>Error</td><td>Unable to resolve username as a property to set on NewUserPage's Navigator context<pre>geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
-	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
-	at geb.Page.propertyMissing(Page.groovy)
-	at geb.Page.setProperty(Page.groovy)
-	at geb.Browser.propertyMissing(Browser.groovy:181)
-	at geb.Browser.setProperty(Browser.groovy)
-	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
-	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
-	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
+<tr valign="top" class="Failure">
+<td><a href="matrixapplication/0_UserControllerSpec.html">UserControllerSpec</a></td><td><a name="should save user"></a><a href="matrixapplication/0_UserControllerSpec.html#should save user">should save user</a></td><td>Failure</td><td>Condition not satisfied:  User.count() == 1      |       |      0       false <pre>junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at matrixapplication.UserControllerSpec.should save user(UserControllerSpec.groovy:17)
 </pre>
-</td><td>9.661</td>
+</td><td>1.672</td>
 </tr>
 </table>
 </body>

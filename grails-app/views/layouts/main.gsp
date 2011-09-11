@@ -25,9 +25,9 @@
 
 <div id="content-wrapper">
     <div id="sidebar">
-        <g:link controller="user" action="create" name="createNewUser">Create User</g:link>
+        <g:link controller="person" action="create" name="createNewUser">Create User</g:link>
         <br/>
-        <g:link controller="user" action="index" name="showUser">Show User</g:link>
+        <g:link controller="person" action="show" name="showUser">Show User</g:link>
         <br/>
         <g:link controller="matrix" action="index" name="showMatrix">Show Matrix</g:link>
         <br/>
