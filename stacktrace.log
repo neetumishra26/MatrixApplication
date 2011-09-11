@@ -18831,3 +18831,61 @@ java.lang.Exception: No runnable methods
 	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:93)
 	at org.junit.runners.model.RunnerBuilder.runners(RunnerBuilder.java:84)
 	at org.junit.runners.Suite.<init>(Suite.java:79)
+2011-09-12 01:00:25,130 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+at(ShowMatrixPage)
+|
+false
+
+	at matrixapplication.CreatePairingSpec.should be able to save user pairing record when 2 username is given(CreatePairingSpec.groovy:21)
+2011-09-12 01:00:25,136 [main] ERROR StackTrace  - Sanitizing stacktrace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+at(ShowMatrixPage)
+|
+false
+
+	at matrixapplication.CreatePairingSpec.should be able to save user pairing record when 2 username is given(CreatePairingSpec.groovy:21)
+2011-09-12 01:19:30,158 [main] ERROR StackTrace  - Sanitizing stacktrace:
+java.lang.NullPointerException: Cannot invoke method click() on null object
+	at matrixapplication.CreatePairingSpec.should be able to save user pairing record when 2 username is given(CreatePairingSpec.groovy:16)
+2011-09-12 01:19:30,168 [main] ERROR StackTrace  - Sanitizing stacktrace:
+java.lang.NullPointerException: Cannot invoke method click() on null object
+	at matrixapplication.CreatePairingSpec.should be able to save user pairing record when 2 username is given(CreatePairingSpec.groovy:16)
+2011-09-12 01:32:38,158 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve clickAddPairing as content for NewUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at matrixapplication.CreatePairingSpec.should be able to save user pairing record when 2 username is given(CreatePairingSpec.groovy:23)
+2011-09-12 01:32:38,168 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve clickAddPairing as content for NewUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at matrixapplication.CreatePairingSpec.should be able to save user pairing record when 2 username is given(CreatePairingSpec.groovy:23)
+2011-09-12 01:34:47,604 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve clickAddPairing as content for NewUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at matrixapplication.CreatePairingSpec.should be able to save user pairing record when 2 username is given(CreatePairingSpec.groovy:23)
+2011-09-12 01:34:47,615 [main] ERROR StackTrace  - Sanitizing stacktrace:
+geb.error.UnresolvablePropertyException: Unable to resolve clickAddPairing as content for NewUserPage, or as a property on it's Navigator context
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:132)
+	at geb.Page.propertyMissing(Page.groovy)
+	at geb.Page.getProperty(Page.groovy)
+	at geb.Browser.propertyMissing(Browser.groovy:174)
+	at geb.Browser.getProperty(Browser.groovy)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at matrixapplication.CreatePairingSpec.should be able to save user pairing record when 2 username is given(CreatePairingSpec.groovy:23)

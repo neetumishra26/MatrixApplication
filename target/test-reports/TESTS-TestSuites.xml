@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="PersonIntegrationSpec" package="matrixapplication" tests="2" time="0.901" timestamp="2011-09-11T19:15:43">
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="CreatePairingSpec" package="matrixapplication" tests="1" time="10.904" timestamp="2011-09-11T20:06:51">
       <properties />
 
-      <testcase classname="matrixapplication.PersonIntegrationSpec" name="should be able to save a person to the database" time="0.866" />
+      <testcase classname="matrixapplication.CreatePairingSpec" name="should be able to save user pairing record when 2 username is given" time="10.88" />
 
-      <testcase classname="matrixapplication.PersonIntegrationSpec" name="should not be able to save a case with a duplicate id" time="0.018" />
-
-      <system-out><![CDATA[--Output from should be able to save a person to the database--
---Output from should not be able to save a case with a duplicate id--
+      <system-out><![CDATA[--Output from should be able to save user pairing record when 2 username is given--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from should be able to save a person to the database--
---Output from should not be able to save a case with a duplicate id--
+      <system-err><![CDATA[--Output from should be able to save user pairing record when 2 username is given--
 ]]></system-err>
 
   </testsuite>

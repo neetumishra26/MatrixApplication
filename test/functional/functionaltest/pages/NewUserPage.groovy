@@ -8,5 +8,9 @@ class NewUserPage extends Page {
     static content = {
         username { $("input", id: "user-name") }
         save { $("button", id: "user-save") }
+        clickAddUser{
+          $("a", name:"createNewUser").click()
+          true
+        }
     }
 }

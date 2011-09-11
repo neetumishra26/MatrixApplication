@@ -12,8 +12,8 @@ class PersonController {
 
     def save = {
         def newPerson = new Person(name: params.name)
-        if(newPerson.save(flush:true)){
-            redirect(action:'show')
+        if (newPerson.save(flush: true)) {
+            redirect(action: 'show')
         }
     }
 }

@@ -4,10 +4,7 @@
     <list default="true" id="8705a499-997a-407d-9ead-1a62aea92343" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/matrixapplication/Matrix.groovy" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/domain/matrixapplication/Pairing.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/matrix/create.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/matrix/show.gsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowMatrixPage.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/functional/matrixapplication/CreatePairingSpec.groovy" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/Matrix" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/domain/matrixapplication/PairedProgrammer.groovy" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/user/index.gsp" afterPath="" />
@@ -28,11 +25,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatrixApplication.iml" afterPath="$PROJECT_DIR$/MatrixApplication.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatrixApplication.iws" afterPath="$PROJECT_DIR$/MatrixApplication.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/matrixapplication/PersonController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/matrixapplication/PersonController.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/matrixapplication/Person.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/matrixapplication/Person.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/matrix/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/matrix/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/matrix/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/matrix/show.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/person/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/person/create.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/person/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/person/show.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stacktrace.log" afterPath="$PROJECT_DIR$/stacktrace.log" />
@@ -54,6 +52,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy" afterPath="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/functionaltest/pages/UserRow.groovy" afterPath="$PROJECT_DIR$/test/functional/functionaltest/pages/UserRow.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy" afterPath="$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/matrixapplication/CreatePairingSpec.groovy" afterPath="$PROJECT_DIR$/test/functional/matrixapplication/CreatePairingSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/matrixapplication/PersonControllerSpec.groovy" afterPath="$PROJECT_DIR$/test/unit/matrixapplication/PersonControllerSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/main.css" afterPath="$PROJECT_DIR$/web-app/css/main.css" />
@@ -122,58 +121,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CreatePairingPage.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/CreatePairingPage.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="40" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreatePairingSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/CreatePairingSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="12" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MatrixController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="62" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-3.9130435">
+            <state line="32" column="16" selection-start="1024" selection-end="1024" vertical-scroll-proportion="-20.869566">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixControllerSpec.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerSpec.groovy">
+      <file leaf-file-name="show.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/matrix/show.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="4" selection-start="600" selection-end="600" vertical-scroll-proportion="0.56179774">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/matrixapplication/Person.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="166" selection-end="166" vertical-scroll-proportion="-2.3863637">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowMatrixPage.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/ShowMatrixPage.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="74" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+            <state line="34" column="27" selection-start="641" selection-end="641" vertical-scroll-proportion="0.63137996">
               <folding />
             </state>
           </provider>
@@ -193,22 +153,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/UserRow.groovy" />
-        <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/HomePage.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy" />
-        <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy" />
         <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowMatrixPage.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/matrix/show.gsp" />
         <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/CreatePairingPage.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/matrixapplication/Pairing.groovy" />
-        <option value="$PROJECT_DIR$/test/functional/matrixapplication/CreatePairingSpec.groovy" />
-        <option value="$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerSpec.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy" />
         <option value="$PROJECT_DIR$/test/integration/matrixapplication/MatrixIntegrationSpec.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/matrixapplication/Person.groovy" />
         <option value="$PROJECT_DIR$/test/integration/matrixapplication/PersonIntegrationTest.groovy" />
         <option value="$PROJECT_DIR$/test/integration/matrixapplication/PersonIntegrationSpec.groovy" />
+        <option value="$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/functionaltest/pages/NewUserPage.groovy" />
+        <option value="$PROJECT_DIR$/test/functional/matrixapplication/CreatePairingSpec.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/matrix/show.gsp" />
       </list>
     </option>
   </component>
@@ -919,7 +879,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24701196" sideWeight="0.6721854" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24701196" sideWeight="0.6721854" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -974,79 +934,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/unit/matrixapplication/PersonControllerSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="127" selection-end="340" vertical-scroll-proportion="0.8044164">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/matrixapplication/Pairing.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="15" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.7045455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/matrixapplication/PersonController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="33" selection-end="33" vertical-scroll-proportion="0.08928572">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="249" selection-end="249" vertical-scroll-proportion="0.33426183">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/matrix/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="277" selection-end="277" vertical-scroll-proportion="0.43269232">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/matrix/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="84" selection-start="189" selection-end="189" vertical-scroll-proportion="0.52884614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/HomePage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="213" selection-end="213" vertical-scroll-proportion="0.33426183">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/CreatePairingPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/CreatePairingSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="12" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="62" selection-start="1176" selection-end="1176" vertical-scroll-proportion="-3.9130435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.5-groovy-1.7.jar!/grails/plugin/spock/IntegrationSpec.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="61" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.53592813">
@@ -1061,9 +948,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/ShowMatrixPage.groovy">
+    <entry file="file://$PROJECT_DIR$/test/integration/matrixapplication/PersonIntegrationSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="74" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+        <state line="26" column="78" selection-start="633" selection-end="633" vertical-scroll-proportion="0.71910113">
           <folding />
         </state>
       </provider>
@@ -1073,21 +960,91 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="166" selection-end="166" vertical-scroll-proportion="-2.3863637">
+        <state line="7" column="39" selection-start="166" selection-end="166" vertical-scroll-proportion="0.20467836">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/matrixapplication/PersonIntegrationSpec.groovy">
+    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/ShowMatrixPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="78" selection-start="633" selection-end="633" vertical-scroll-proportion="0.71910113">
+        <state line="11" column="74" selection-start="254" selection-end="254" vertical-scroll-proportion="0.2962298">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/AddUserSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="21" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/HomePage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="116" selection-end="116" vertical-scroll-proportion="0.13464992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/ShowUserPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="57" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/matrixapplication/CreatePairingSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="25" selection-start="587" selection-end="587" vertical-scroll-proportion="0.54913294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/CreatePairingPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="284" selection-end="284" vertical-scroll-proportion="0.24236985">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/matrixapplication/MatrixControllerSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="600" selection-end="600" vertical-scroll-proportion="0.56179774">
+        <state line="7" column="8" selection-start="167" selection-end="167" vertical-scroll-proportion="0.18987341">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="58" selection-start="979" selection-end="995" vertical-scroll-proportion="0.7336956">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/functionaltest/pages/NewUserPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="8" selection-start="380" selection-end="380" vertical-scroll-proportion="0.33854166">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/matrixapplication/MatrixController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="16" selection-start="1024" selection-end="1024" vertical-scroll-proportion="-20.869566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/matrix/show.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="27" selection-start="641" selection-end="641" vertical-scroll-proportion="0.63137996">
           <folding />
         </state>
       </provider>

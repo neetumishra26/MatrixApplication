@@ -1,0 +1,9 @@
+/*.iml
+/.idea
+/devDB.*
+/local-grails-*
+/prodDb.*
+/stacktrace.log
+/target
+/testDb.*
+/out

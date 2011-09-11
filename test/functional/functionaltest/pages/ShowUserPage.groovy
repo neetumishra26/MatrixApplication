@@ -8,6 +8,14 @@ class ShowUserPage extends Page{
     static url = "person/show"
     static content = {
       allUser {$("#user-table tbody tr").size()}
+      clickAddPairing{
+          $("a", name:"createNewPairing").click()
+          true
+      }
+      clickAddUser{
+          $("a", name:"createNewUser").click()
+          true
+      }
     }
 }
 
