@@ -1,5 +1,5 @@
 Testsuite: matrixapplication.AddUserSpec
-Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 9.68 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 8.551 sec
 ------------- Standard Output ---------------
 --Output from should be able to save user when username is given--
 ------------- ---------------- ---------------
@@ -7,16 +7,4 @@ Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 9.68 sec
 --Output from should be able to save user when username is given--
 ------------- ---------------- ---------------
 
-Testcase: should be able to save user when username is given took 9.641 sec
-	Caused an ERROR
-Unable to resolve username as a property to set on NewUserPage's Navigator context
-geb.error.UnresolvablePropertyException: Unable to resolve username as a property to set on NewUserPage's Navigator context
-	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:141)
-	at geb.Page.propertyMissing(Page.groovy)
-	at geb.Page.setProperty(Page.groovy)
-	at geb.Browser.propertyMissing(Browser.groovy:181)
-	at geb.Browser.setProperty(Browser.groovy)
-	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:59)
-	at geb.spock.GebSpec.setProperty(GebSpec.groovy)
-	at matrixapplication.AddUserSpec.should be able to save user when username is given(AddUserSpec.groovy:13)
-
+Testcase: should be able to save user when username is given took 8.543 sec

@@ -4,7 +4,7 @@ import grails.plugin.spock.ControllerSpec
 
 class PersonControllerSpec extends ControllerSpec {
 
-    def "should save user"() {
+    def "should redirect to show page after saving the user"() {
         given:
         mockDomain(Person)
         controller.params.name = "Neetu"
@@ -16,7 +16,7 @@ class PersonControllerSpec extends ControllerSpec {
         redirectArgs == [action: 'show']
     }
 
-    def "should show users"() {
+    def "should show all users"() {
         given:
         def persons = [new Person(name: "neetu"), new Person(name: "mishra")]
         mockDomain(Person, persons)

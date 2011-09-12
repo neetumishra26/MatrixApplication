@@ -1,14 +1,86 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="CreatePairingSpec" package="matrixapplication" tests="1" time="10.904" timestamp="2011-09-11T20:06:51">
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="0" name="AddUserSpec" package="matrixapplication" tests="1" time="8.551" timestamp="2011-09-12T17:18:27">
       <properties />
 
-      <testcase classname="matrixapplication.CreatePairingSpec" name="should be able to save user pairing record when 2 username is given" time="10.88" />
+      <testcase classname="matrixapplication.AddUserSpec" name="should be able to save user when username is given" time="8.543" />
+
+      <system-out><![CDATA[--Output from should be able to save user when username is given--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should be able to save user when username is given--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="1" name="CreatePairingSpec" package="matrixapplication" tests="1" time="2.414" timestamp="2011-09-12T17:18:36">
+      <properties />
+
+      <testcase classname="matrixapplication.CreatePairingSpec" name="should be able to save user pairing record when 2 username is given" time="2.414" />
 
       <system-out><![CDATA[--Output from should be able to save user pairing record when 2 username is given--
 ]]></system-out>
 
       <system-err><![CDATA[--Output from should be able to save user pairing record when 2 username is given--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="2" name="MatrixIntegrationSpec" package="matrixapplication" tests="1" time="0.175" timestamp="2011-09-12T17:18:24">
+      <properties />
+
+      <testcase classname="matrixapplication.MatrixIntegrationSpec" name="should save linking between two users" time="0.175" />
+
+      <system-out><![CDATA[--Output from should save linking between two users--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should save linking between two users--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="3" name="PairingIntegrationSpec" package="matrixapplication" tests="2" time="0.116" timestamp="2011-09-12T17:18:24">
+      <properties />
+
+      <testcase classname="matrixapplication.PairingIntegrationSpec" name="should be able to save a pairing between two users in the database" time="0.067" />
+
+      <testcase classname="matrixapplication.PairingIntegrationSpec" name="should be able to save all pairing if same users are pairing" time="0.024" />
+
+      <system-out><![CDATA[--Output from should be able to save a pairing between two users in the database--
+--Output from should be able to save all pairing if same users are pairing--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should be able to save a pairing between two users in the database--
+--Output from should be able to save all pairing if same users are pairing--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="4" name="PersonIntegrationSpec" package="matrixapplication" tests="2" time="0.784" timestamp="2011-09-12T17:18:23">
+      <properties />
+
+      <testcase classname="matrixapplication.PersonIntegrationSpec" name="should be able to save a person to the database" time="0.737" />
+
+      <testcase classname="matrixapplication.PersonIntegrationSpec" name="should not be able to save a case with a duplicate id" time="0.018" />
+
+      <system-out><![CDATA[--Output from should be able to save a person to the database--
+--Output from should not be able to save a case with a duplicate id--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should be able to save a person to the database--
+--Output from should not be able to save a case with a duplicate id--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="twu-pc" id="5" name="PersonControllerSpec" package="matrixapplication" tests="2" time="1.822" timestamp="2011-09-12T17:18:12">
+      <properties />
+
+      <testcase classname="matrixapplication.PersonControllerSpec" name="should redirect to show page after saving the user" time="1.759" />
+
+      <testcase classname="matrixapplication.PersonControllerSpec" name="should show all users" time="0.021" />
+
+      <system-out><![CDATA[--Output from should redirect to show page after saving the user--
+--Output from should show all users--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from should redirect to show page after saving the user--
+--Output from should show all users--
 ]]></system-err>
 
   </testsuite>

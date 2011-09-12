@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="twu-pc" name="matrixapplication.PersonIntegrationSpec" tests="2" time="0.901" timestamp="2011-09-11T19:15:43">
+<testsuite errors="0" failures="0" hostname="twu-pc" name="matrixapplication.PersonIntegrationSpec" tests="2" time="0.784" timestamp="2011-09-12T17:18:23">
   <properties />
-  <testcase classname="matrixapplication.PersonIntegrationSpec" name="should be able to save a person to the database" time="0.866" />
+  <testcase classname="matrixapplication.PersonIntegrationSpec" name="should be able to save a person to the database" time="0.737" />
   <testcase classname="matrixapplication.PersonIntegrationSpec" name="should not be able to save a case with a duplicate id" time="0.018" />
   <system-out><![CDATA[--Output from should be able to save a person to the database--
 --Output from should not be able to save a case with a duplicate id--
